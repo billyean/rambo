@@ -34,10 +34,10 @@ fn main() {
     println!("sum of 1..100 is {}", sum);
 
     // How to use tuple
-    let tup1: (i8, f32, bool) = (-10, 2.718281828459, true);
+    let _tup1: (i8, f32, bool) = (-10, 2.718281828459, true);
     let tup2 = (20.2, ("Ruby", false));
 
-    let (_, (ruby, male)) = tup2;   // unwrap a tuple
+    let (_, (ruby, _male)) = tup2;   // unwrap a tuple
     println!("name: {}", ruby);
 
     // How to use array
