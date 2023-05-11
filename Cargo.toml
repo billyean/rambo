@@ -25,3 +25,7 @@ path = "src/format/format.rs"
 [[bin]]
 name = "guess"
 path = "src/guess/guess.rs"
+
+[[bin]]
+name = "structs"
+path = "src/structs/structs.rs"
