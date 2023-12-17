@@ -9,10 +9,18 @@ edition = "2018"
 [dependencies]
 rand = "0.8.4"
 colored = "2.0.0"
+bytebuffer="2.2.0"
+arrayref="0.3.7"
+time = "0.3.30"
+sqlparser = "0.40.0"
 
 [[bin]]
 name = "rambo"
 path = "src/main.rs"
+
+[[bin]]
+name = "borrow"
+path = "src/borrow/borrow.rs"
 
 [[bin]]
 name = "concat"
